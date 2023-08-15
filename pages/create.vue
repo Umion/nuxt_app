@@ -113,6 +113,7 @@ async function addCompany(data) {
     image: "",
   };
   try {
+    // its fake api, and didn't create new item in array
     const res = await $fetch(
       "https://my-json-server.typicode.com/Umion/fake_db/data",
       {
